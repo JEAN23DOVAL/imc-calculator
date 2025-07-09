@@ -1,0 +1,84 @@
+/* RESET CSS DE BASE */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Sans-serif;
+    background-color: #f4f6f8;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Conteneur principal */
+main {
+    max-width: 500px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Titre */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #007acc;
+}
+
+/* Formulaire */
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    font-style: 1em;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    font-style: 1em;
+    background-color: #007acc;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #005f99;
+}
+
+.imc-result {
+    margin-top: 25px;
+    text-align: center;
+    font-size: 1.2em;
+    color: #444;
+}
+
+/* Responsive deign */
+@media screen and (max-with: 600px) {
+    main {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+}
